@@ -90,3 +90,10 @@ form button:hover {
   padding: 0rem 0.5rem;
   font-weight: bold;
 }
+
+/* Disable clicks on the icon itself */
+
+.fa-trash,
+.fa-check {
+  pointer-events: 0;
+}
